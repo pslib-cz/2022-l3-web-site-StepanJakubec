@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <title>Tento webový projekt</title>
+    <link type="text/css" href="styles/normalize.css" rel="stylesheet">
+    <link type="text/css" href="styles/styles.css" rel="stylesheet">
+    <script src="hamburger.js"></script>
+    <title>Music Orbis | Home</title>
 </head>
 <body>
-    <h1>My Web Page</h1>    
+    <header class="page__header">
+        <nav class="header__navbar">
+            <a href="index.html"><img src="images/main_logo.svg" alt="Hlavní logo stránky"></a>
+            <h1 class="navbar__heading">Music Orbis</h1>
+            <div class="navbar__hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navbar__menu">
+                <li><a href="news.html">Music news</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h2 class="header__heading"><span class="coloredText">Music news</span> from the whole world</h2>
+    </header>
+    <main class="page__main">
+        <img class="main__img" src="images/indexBigPicture.png" alt="Fotka, která se skládá z více náhledových fotek alb od známých zpěváků">
+        <h3 class="main__introductionText">Welcome to our page, where we post news and interesting facts about music from the whole world</h3>
+        <div class="main__social">
+            <img src="images/InstagramSVG.svg" alt="Logo Instagramu">
+            <img src="images/FacebookSVG.svg" alt="Logo Facebooku">
+            <img src="images/TiktokSVG.svg" alt="Logo TikToku">
+        </div>
+        <section class="main_goal">
+            <img class="main_goal__img" src="images/OurGoals.png" alt="Fotka albumu">
+            <div class="main_goal__text">
+                <p>Our goal</p>
+                <p>Our goal is to inform people about music news and interesting stuff that is going on worldwide. On our social media we post news to keep you informed. <span class="coloredText">So if you are keen on music stay with us!</span></p>
+            </div>
+        </section>
+        <p class="main_feed__heading">Instagram feed</p>
+        <section class="main_feed">
+            <img class="main_feed__img" src="images/Feed1.png" alt="Fotka umělce v sekci Instagram Feed">
+            <img class="main_feed__img" src="images/Feed2.png" alt="Fotka umělce v sekci Instagram Feed">
+            <img class="main_feed__img" src="images/Feed3.png" alt="Fotka umělce v sekci Instagram Feed">
+        </section>
+    </main>
+    <footer class="page__footer">
+        <div class="footer_start">
+            <p>Follow us on</p>
+            <div class="footer_start__logos">
+                <img src="images/InstagramSmallSVG.svg" alt="Malé logo instagramu">
+                <img src="images/FacebookSmallSVG.svg" alt="Malé logo facebooku">
+                <img src="images/TiktokSmallSVG.svg" alt="Malé logo TikToku">
+            </div>
+        </div>
+        <div class="footer_middle">
+            <p>Terms of use</p>
+            <p>Privacy policy</p>
+            <p>Cookie notice</p>
+        </div>
+        <div class="footer_end">
+            <p>All rights reseved</p>
+            <img src="images/main_logo.svg" alt="Hlavní logo stránky">
+        </div>
+    </footer>
 </body>
 </html>
