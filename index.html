@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Orbis | Home</title>
+
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper('.swiper', {
+            speed: 700,
+            spaceBetween: 100,
+            effect: "slide",
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                bulletClass: 'swiper-pagination-bullet',
+                bulletElement: "a",
+                type: 'bullets',
+                clickable: true,  
+            },
+            /*autoplay: {
+                delay: 4000,
+            },*/
+            });
+    </script>
+    <script src="lightGallery/lightgallery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="lightGallery/css/lightgallery.css">
+    <link type="text/css" rel="stylesheet" href="lightGallery/css/lightgallery-bundle.css">
+
+    <link type="text/css" href="styles/normalize.css" rel="stylesheet">
+    <link type="text/css" href="styles/styles.css" rel="stylesheet">
+    <script src="hamburger.js"></script>
+</head>
+<body>
+    <header class="page__header">
+        <div class="header__navbar">
+            <a href="index.html"><img src="images/main_logo.svg" alt="Hlavní logo stránky"></a>
+            <p class="navbar__heading">Music Orbis</p>
+            <div class="navbar__hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navbar__menu">
+                <menu class="menu__list">
+                    <li><a href="news.html">Music news</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </menu>
+            </nav>
+            
+        </div>
+        <h1 class="header__heading"><span class="coloredText">Music news from the whole world</span></h1>
+    </header>
+    <main class="page__main">
+        <img class="main__img" src="./images/BBControversial.webp" alt="Fotka, která se skládá z více náhledových fotek alb od známých zpěváků">
+        <h3 class="main__introductionText">Welcome to our page, where we post news and interesting facts about music from the whole world</h3>
+        <div class="main__social">
+            <img src="images/InstagramSVG.svg" alt="Logo Instagramu">
+            <img src="images/FacebookSVG.svg" alt="Logo Facebooku">
+            <img src="images/TiktokSVG.svg" alt="Logo TikToku">
+        </div>
+        <section class="main_goal">
+            <img class="main_goal__img" src="./images/OurGoals.webp" alt="Fotka albumu od NF s názvem HOPE">
+            <div class="main_goal__text">
+                <h2>Our goal</h2>
+                <p>Our goal is to inform people about music news and interesting stuff that is going on worldwide. On our social media we post news to keep you informed. <span class="coloredText">So if you are keen on music stay with us!</span></p>
+            </div>
+<<<<<<< HEAD
+        </section>
+        
+        <section class="main_feed">
+            <h2 class="main_feed__heading">Instagram feed</h2>
+=======
+        </section> 
+        <section class="main_feed">
+        <h2 class="main_feed__heading">Instagram feed</h2>
+>>>>>>> 37fd6a27c8b1cb9effe645143b6f81291bb2b15e
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide gallery1">
+                    <img class="main_feed__img" src="./images/Feed/feed/1.webp" alt="Novinka o Postmalonovi">
+                    <img class="main_feed__img" src="./images/Feed/feed/2.webp" alt="Novinka o Doja Cat">
+                    <img class="main_feed__img" src="./images/Feed/feed/3.webp" alt="Novinka o Edu Sheeranovi">
+                  </div>
+                  <div class="swiper-slide gallery2">
+                    <img class="main_feed__img" src="./images/Feed/feed/4.webp" alt="Novinka o Cardi B">
+                    <img class="main_feed__img" src="./images/Feed/feed/5.webp" alt="Novinka o hudebním průmyslu">
+                    <img class="main_feed__img" src="./images/Feed/feed/6.webp" alt="Zajímavost o Miley Cyrus">
+                  </div>
+                  <div class="swiper-slide gallery3">
+                    <img class="main_feed__img" src="./images/Feed/feed/7.webp" alt="Zajímavost o Pop Smokovi">
+                    <img class="main_feed__img" src="./images/Feed/feed/8.webp" alt="Novinka o Beyoncé">
+                    <img class="main_feed__img" src="./images/Feed/feed/9.webp" alt="Novinka o Taylor Swift">
+                  </div>
+                  <div class="swiper-slide gallery4">
+                    <img class="main_feed__img" src="./images/Feed/feed/10.webp" alt="Novinka o Tyler The Creator">
+                    <img class="main_feed__img" src="./images/Feed/feed/11.webp" alt="Fotka kostýmů z Met Gala">
+                    <img class="main_feed__img" src="./images/Feed/feed/12.webp" alt="Výherce rubriky Nejposlouchanější umělec na Spotify">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+    </main>
+    <footer class="page__footer">
+        <div class="footer_start">
+            <p>Follow us on</p>
+            <div class="footer_start__logos">
+                <img src="images/InstagramSmallSVG.svg" alt="Malé logo instagramu">
+                <img src="images/FacebookSmallSVG.svg" alt="Malé logo facebooku">
+                <img src="images/TiktokSmallSVG.svg" alt="Malé logo TikToku">
+            </div>
+        </div>
+        <div class="footer_middle">
+            <a>Terms of use</a>
+            <a>Privacy policy</a>
+            <a>Cookie notice</a>
+        </div>
+        <div class="footer_end">
+            <p>All rights reseved</p>
+            <img src="images/main_logo.svg" alt="Hlavní logo stránky">
+        </div>
+    </footer>
+    <script type="module">
+        lightGallery(document.querySelector(".gallery1"), {});
+    </script>
+    <script type="module">
+        lightGallery(document.querySelector(".gallery2"), {});
+    </script>
+    <script type="module">
+        lightGallery(document.querySelector(".gallery3"), {});
+    </script>
+    <script type="module">
+        lightGallery(document.querySelector(".gallery4"), {});
+    </script>
+</body>
+</html>
