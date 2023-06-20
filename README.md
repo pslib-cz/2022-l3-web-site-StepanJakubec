@@ -4,7 +4,7 @@ Práce se zabývá vytvořením webových stránek ...
 Které se zabívají hudebními novinkami
 
 Nezapomenu upravit odkazy a "aktivovat" GitHub Pages... 
-[Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/index.html)
+[Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/2022-l3-web-site-StepanJakubec/index.html)
 
 [Návrh webové stránky ve Figmě][(https://www.figma.com/)](https://www.figma.com/file/OQsNmCOg6ZeOdtpRy5VNhv/Untitled?type=design&node-id=0%3A1&t=k74ghDLo1DqBykJx-1)
 
